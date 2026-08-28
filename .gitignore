@@ -1,0 +1,17 @@
+Debug/
+Release/
+Inc/**
+Src/**
+Startup/
+.settings/
+.vscode/
+*.launch
+*.elf
+*.map
+*.list
+*.o
+*.bin
+*.hex
+*.ld
+*.cproject
+*.project
