@@ -25,7 +25,7 @@ peripheral related macros & peripheral APIs prototypes
 **Peripheral configuration process:**
 
 For configuring peripherals use its **handle structures**. First member of handle structure is **config structure**, use this structure to configure peripheral parameters
-with peripheral related macros, you can find them in `.h` driver files. Second member is the **base address of peripheral**, use it to chose the peripheral you want 
+with peripheral related macros, you can find them in `.h` driver files. Second member is the **base address of peripheral**, use it to choose the peripheral you want 
 to configure. Then use the **Init** API to proceed the peripheral configuration. Also peripheral handle structure should be filled with zeros with memset function to avoid potential errors.
 
 **Peripheral functional usage process**
