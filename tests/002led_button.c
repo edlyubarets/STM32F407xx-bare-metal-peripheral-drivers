@@ -5,6 +5,7 @@
  *      Author: dell
  */
 
+#include <string.h>
 #include "stm32f407xx.h"
 
 
@@ -15,7 +16,7 @@ int main(void)
 {
 	GPIO_Handle_t GpioLed;
 
-	memset()
+	memset(&GpioLed, 0, sizeof(GpioLed));
 
 	GpioLed.GPIOx = GPIOD;
 
@@ -31,6 +32,8 @@ int main(void)
 
 
 	GPIO_Handle_t GpioButton;
+
+	memset(&GpioButton, 0, sizeof(GpioButton));
 
 	GpioButton.GPIOx = GPIOA;
 
