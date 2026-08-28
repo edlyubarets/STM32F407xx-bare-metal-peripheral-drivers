@@ -7,7 +7,7 @@ Introducing STM32F407xx Bare Metal Peripheral Drivers
 These drivers contain APIs for according peripherals:
 `GPIO`, `SPI`, `I2C`, `USART`, `RCC(additionally)`
 
-Usage examples can be found in `/test` directory
+Usage examples can be found in `/tests` directory
 
 ### Detailed Description
 ---
