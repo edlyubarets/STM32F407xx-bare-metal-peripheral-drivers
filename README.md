@@ -13,7 +13,7 @@ Usage examples can be found in `/tests` directory
 ---
 **Drivers components overview:**
 
-`stm32f407xx.h` - contains general MCU & PCU macros, memory addresses & register definition structures
+`stm32f407xx.h` - contains general MCU & CPU macros, memory addresses & register definition structures
 
 `gpio_driver.h`,`spi_driver.h`, `i2c_driver.h`, `usart_driver.h`, `rcc_driver.h` - contain peripheral config structures, peripheral handle structures,
 peripheral related macros & peripheral APIs prototypes
